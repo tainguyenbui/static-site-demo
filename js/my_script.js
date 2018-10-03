@@ -19,9 +19,12 @@ $(function() {
 
     		if (xhr.status == 400) {
     			message = 'Check input.\r\nBad Request ' + xhr.status;
-    		}
-
-    		alert(message);
+          alert(message);
+    		} else if (xhr.status == 0) {
+          $('#alert').html('<div class="alert alert-danger alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Error!</strong> Do you have CORS enabled in Chrome?<a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi" target="_blank"> Plugin to enable CORS available here.</a></div>');
+        } else {
+          alert(message);
+        }
     	});
   });
 
