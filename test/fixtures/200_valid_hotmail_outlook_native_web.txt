@@ -1,0 +1,96 @@
+{
+    "plainTextContent":"From: Tai Cool Surname <tai.hotmail.test@someemail.com>
+Date: Monday, 1 October 2018 at 16:10
+To: Tai Cool Surname <tai.hotmail.test@someemail.com>, The QA Guy <qa@theam.io>
+Subject: Re: testing from Hotmail to Outlook - adding something to subject
+
+Whattt
+
+From: Tai Cool Surname <tai.hotmail.test@someemail.com>
+Date: Monday, 1 October 2018 at 16:09
+To: Tai Cool Surname <tai.hotmail.test@someemail.com>, The QA Guy <qa@theam.io>
+Subject: Re: testing from Hotmail to Outlook - adding something to subject
+
+Let’s complete this email Chain tests
+
+From: The QA Guy <qa@myfakeaccount.com>
+Date: Monday, 1 October 2018 at 16:08
+To: Tai Cool Surname <tai.hotmail.test@someemail.com>, Another Person <another@theam.io>
+Subject: FW: testing from Hotmail to Outlook
+
+
+
+From: Tai Cool Surname <tai.outlook.test@someemail.com>
+Date: Monday, 1 October 2018 at 16:07
+To: Tai Cool Surname <tai.hotmail.test@someemail.com>
+Subject: Re: testing from Hotmail to Outlook
+
+Hey, got a question From: Date: To: a :Subject
+Why outlook and hotmail name the Date header differently? that's annoying.
+
+Thanks,
+Tai
+________________________________
+From: Tai Cool Surname <tai.outlook.test@someemail.com>
+Sent: 01 October 2018 15:03
+To: Tai Cool Surname; Tai Cool Surname
+Subject: Re: testing from Hotmail to Outlook
+
+
+I’m also going to send me a copy of these from native
+
+
+
+Wuhuuu
+
+
+
+From: Tai Cool Surname <tai.hotmail.test@someemail.com>
+Date: Monday, 1 October 2018 at 16:01
+To: Tai Cool Surname <tai.outlook.test@someemail.com>
+Subject: Re: testing from Hotmail to Outlook
+
+
+
+Loving those base64 yeah!
+
+________________________________
+
+From: Tai Cool Surname <tai.outlook.test@someemail.com>
+Sent: 01 October 2018 15:59:16
+To: Tai Cool Surname
+Subject: Re: testing from Hotmail to Outlook
+
+
+
+And now replying from Outlook Native
+
+
+Cheers!
+
+
+
+From: Tai Cool Surname <tai.hotmail.test@someemail.com>
+Date: Monday, 1 October 2018 at 15:57
+To: Tai Cool Surname <tai.outlook.test@someemail.com>
+Subject: testing from Hotmail to Outlook
+
+
+
+Hi Tai!
+
+
+
+I am testing emails and replies from Hotmail to Outlook.
+
+
+
+Let’s see how it goes.
+
+
+
+Thanks,
+
+Tai
+"
+}

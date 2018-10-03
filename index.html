@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="theam">
+
+    <title>Email Parsing Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center">
+      <div class="container">
+        <h2 class="font-weight-light mb-0">Azure Functions Email Parsing Demo - theam.</h2>
+      </div>
+    </header>
+
+	<div style="margin: 20px;">
+
+	    <div class="input-group mb-3" style="margin-top: 20px;">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">url</span>
+		  </div>
+		  <input id="url-input" type="text" class="form-control" placeholder="Azure Function url, e.g. https://email-parser-poc.azurewebsites.net..." aria-label="Username" aria-describedby="basic-addon1">
+		</div>
+
+		<div class="dropdown" style="margin-bottom: 20px;">
+		  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+	  		Select Fixture:
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+		    <li class="custom-input">Custom</li>
+		    <li class="no-emails">No emails</li>
+		    <li class="hotmail-input">Hotmail</li>
+		    <li class="outlook-input">Outlook</li>
+		    <li class="outlook-hotmail-native-web">Outlook + Hotmail (Native <-> Web)</li>
+		    <li class="gmail-english-input">Gmail (English)</li>
+		    <li class="gmail-spanish-input">Gmail (Spanish)</li>
+		    <li class="combination-gmail-outlook">Gmail + Outlook</li>
+		  </ul>
+		  <a href="https://github.com/tainguyenbui/http-request-static-site/tree/master/test/fixtures" style="margin-left: 50px;" target="_blank">Click here to see all fixtures</a>
+		</div>
+		<div>
+	    	<textarea id="parse-input"  class="form-control" aria-label="With textarea" style="height: 250px; margin-bottom: 20px;"></textarea>
+		</div>
+		<button type="button" class="btn btn-secondary" id="clear-input">Clear</button>
+		<button type="button" class="btn btn-primary" id="parse-email">Parse!</button>
+	</div>
+
+
+	<div id="output" style="margin: 20px;">
+		<label>Output status:</label> <label id="output-status"></label>
+		<div>
+	    	<textarea id="parse-output" class="form-control" aria-label="With textarea" style="height: 250px; margin-bottom: 20px;"></textarea>
+		</div>
+	</div>
+	<div style="margin: 20px;">
+		<label>JSON Pretty Printing urls:</label><br>
+		<a href='http://jsonprettyprint.com/' target="_blank">http://jsonprettyprint.com/</a>
+		<br>
+		<a href='https://jsonformatter.curiousconcept.com/' target="_blank">https://jsonformatter.curiousconcept.com/</a>
+		<br>
+		<a href='https://jsonformatter.org/json-pretty-print' target="_blank">https://jsonformatter.org/json-pretty-print</a>
+	</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/my_script.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.js"></script>
+
+  </body>
+
+</html>

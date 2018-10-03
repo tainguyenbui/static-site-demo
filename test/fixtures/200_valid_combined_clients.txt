@@ -1,0 +1,65 @@
+﻿{
+          "plainTextContent":"________________________________
+From: Smith, Veronica
+Sent: Tuesday, October 2, 2018 3:14 PM
+To: Martinez, Jose
+Subject: FW: Veronica test
+
+
+This is actually a forward
+
+
+
+From: \"Smith, Veronica\" <Veronica.Smith@somecorp.com>
+Date: Tuesday, October 2, 2018 at 2:52 PM
+To: \"Veronica@ds1dev.somecorp.com\" <Veronica@ds1dev.somecorp.com>
+Subject: FW: Veronica test
+
+
+
+3rd test
+
+
+
+________________________________
+
+From: Smith, Veronica
+Sent: Tuesday, September 25, 2018 2:34 PM
+To: Veronica@ds1dev.somecorp.com
+Subject: Veronica test
+
+
+
+Hello world!
+From: Tai Cool Surname <tai@someemail.com>
+Date: Tue, Oct 2, 2018 at 12:58 PM
+Subject: Re: testing email chains using gmail
+To: Charles Romero Brown <Charles@someemail.com>
+Cc: José Manuel Richards García <jose@someemail.com>
+
+
+Thanks guys, Let's keep it up.
+
+One last FW please.
+
+
+El mar., 2 oct. 2018 a las 12:52, Charles Romero Brown (<Charles@someemail.com>) escribió:
+
+> Good job Tai!
+>
+> Regards,
+> Charles
+>
+> El mar., 2 oct. 2018 a las 12:42, Tai Cool Surname (<tai@someemail.com>)
+> escribió:
+>
+>> Hi guys!
+>>
+>> This is the very first email, I hope you like it
+>>
+>> Regards,
+>> Tai
+>>
+>
+"
+}

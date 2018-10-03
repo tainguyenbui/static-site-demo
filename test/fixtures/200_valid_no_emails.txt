@@ -1,0 +1,3 @@
+﻿{
+    "plainTextContent":"This is just text, no emailsr\n\r\n________________________________\r\n"
+}
