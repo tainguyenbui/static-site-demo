@@ -12,7 +12,7 @@ $(function() {
     $.post(url, $('#parse-input').val())
     	.done(function(data){
     		$('#output-status').text("Success");
-        var parsedJson = JSON.parse(data);
+        var parsedJson = JSON.parse(data.replace(/</g, "&lt;").replace(/>/g, "&gt;"));
     		$('#json-output').html(JSON.stringify(parsedJson, undefined, 2));
     	})
     	.fail(function(xhr){
