@@ -61,6 +61,10 @@ $(function() {
   	populateInput('https://raw.githubusercontent.com/tainguyenbui/static-site-demo/master/test/fixtures/200_valid_gmail_english.txt');
   });
 
+  $("li.gmail-french-input").click(function() {
+    populateInput('https://raw.githubusercontent.com/tainguyenbui/static-site-demo/master/test/fixtures/200_valid_gmail_french.txt');
+  });
+
   $("li.gmail-spanish-input").click(function() {
   	populateInput('https://raw.githubusercontent.com/tainguyenbui/static-site-demo/master/test/fixtures/200_valid_gmail_spanish.txt');
   });
