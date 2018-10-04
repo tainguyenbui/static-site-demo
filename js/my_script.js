@@ -2,10 +2,12 @@ $(function() {
 
   $('#parse-email').click(function() {
 
+    $('#alert').html("");
+
   	var url = $('#url-input').val();
 
   	if (!url || 0 === url.length) {
-		alert("Please insert the URL of the Azure Function");
+      $('#alert').html('<div class="alert alert-danger alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Error!</strong> Please insert the URL of the Azure Function.</div>');
   		return;
   	}
 
@@ -18,14 +20,15 @@ $(function() {
     	.fail(function(xhr){
         $('#json-output').html("");
         $('#output-status').text("");
-    		var message = "Internal Server Error " + xhr.status;
-    		if (xhr.status == 400) {
-    			message = 'Check input.\r\nBad Request ' + xhr.status;
-          alert(message);
-    		} else if (xhr.status == 0) {
+        if (xhr.status == 0) {
           $('#alert').html('<div class="alert alert-danger alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Error!</strong> Do you have CORS enabled in Chrome?<a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi" target="_blank"> Plugin to enable CORS available here.</a></div><div class="alert alert-warning alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Warning!</strong> It is recommended to disable CORS after using this tool. Otherwise other Web Apps may not work as expected.</div>');
         } else {
-          alert(message);
+            var message = "Internal Server Error " + xhr.status;
+            if (xhr.status == 400) {
+              message = 'Check input.\r\nBad Request ' + xhr.status;
+            } 
+
+            $('#alert').html('<div class="alert alert-danger alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Error!</strong> ' + message + '</div>');
         }
     	});
   });
