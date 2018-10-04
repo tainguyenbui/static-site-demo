@@ -16,8 +16,9 @@ $(function() {
     		$('#json-output').html(JSON.stringify(parsedJson, undefined, 2));
     	})
     	.fail(function(xhr){
+        $('#json-output').html("");
+        $('#output-status').text("");
     		var message = "Internal Server Error " + xhr.status;
-
     		if (xhr.status == 400) {
     			message = 'Check input.\r\nBad Request ' + xhr.status;
           alert(message);
