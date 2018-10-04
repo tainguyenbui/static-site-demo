@@ -1,34 +1,3 @@
 ﻿{
-      "plainTextContent": "
-From: "Simon, Catherine" <Catherine.Simon@somecorp.com>
-Date: Wednesday, September 19, 2018 at 3:53 PM
-To: "Smith, Veronica" <Veronica.Smith@somecorp.com>, "Brown, Johan" <Johan.Brown@somecorp.com>, "Martinez, Jose" <Jose.Martinez@somecorp.com>
-Subject: Re: Testing emails
-
-ISn’t this fun????
-
---
-
-Jenny Simon
-VP Product Management
-some Corporation
-some Communications LLC
-Office : 111.632.2211
-Mobile: 612.747.0928
-
-
-From: "Smith, Veronica" <Veronica.Smith@somecorp.com>
-Date: Wednesday, September 19, 2018 at 9:53 AM
-To: "Brown, Johan" <Johan.Brown@somecorp.com>, "Simon, Catherine" <Catherine.Simon@somecorp.com>, "Martinez, Jose" <Jose.Martinez@somecorp.com>
-Subject: Re: Testing emails
-
-Got it!
-
-From: "Brown, Johan" <Johan.Brown@somecorp.com>
-Date: Wednesday, September 19, 2018 at 10:52 AM
-To: "Smith, Veronica" <Veronica.Smith@somecorp.com>, "Simon, Catherine" <Catherine.Simon@somecorp.com>, "Martinez, Jose" <Jose.Martinez@somecorp.com>
-Subject: Testing emails
-
-Hello theam
-"
+      "plainTextContent": "\r\nFrom: \"Simon, Jennifer\" <Jennifer.Simon@merrillcorp.com>\r\nDate: Wednesday, September 19, 2018 at 3:53 PM\r\nTo: \"Tang, Jennie\" <Jennie.Tang@merrillcorp.com>, \"Montenegro, Johan\" <Johan.Montenegro@merrillcorp.com>, \"Martinez, Jose\" <Jose.Martinez@merrillcorp.com>\r\nSubject: Re: Testing emails\r\n\r\nISn\u2019t this fun????\r\n\r\n--\r\n\r\nJenny Simon\r\nVP Product Management\r\nMerrill Corporation\r\nMerrill Communications LLC\r\nOffice : 651.632.4464\r\nMobile: 612.747.0928\r\n\r\n\r\nFrom: \"Tang, Jennie\" <Jennie.Tang@merrillcorp.com>\r\nDate: Wednesday, September 19, 2018 at 9:53 AM\r\nTo: \"Montenegro, Johan\" <Johan.Montenegro@merrillcorp.com>, \"Simon, Jennifer\" <Jennifer.Simon@merrillcorp.com>, \"Martinez, Jose\" <Jose.Martinez@merrillcorp.com>\r\nSubject: Re: Testing emails\r\n\r\nGot it!\r\n\r\nFrom: \"Montenegro, Johan\" <Johan.Montenegro@merrillcorp.com>\r\nDate: Wednesday, September 19, 2018 at 10:52 AM\r\nTo: \"Tang, Jennie\" <Jennie.Tang@merrillcorp.com>, \"Simon, Jennifer\" <Jennifer.Simon@merrillcorp.com>, \"Martinez, Jose\" <Jose.Martinez@merrillcorp.com>\r\nSubject: Testing emails\r\n\r\nHello theam\r\n"
 }
