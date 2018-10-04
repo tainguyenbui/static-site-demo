@@ -1,3 +1,40 @@
 ﻿{
-    "plainTextContent":"\r\ngreat email chain!\r\n\r\n________________________________\r\nFrom: Tai Cool Surname <tai@someemail.com>\r\nSent: 01 October 2018 14:05:36\r\nTo: Tai Cool Surname\r\nSubject: Fw: A test email for myself hotmail\r\n\r\n\r\n\r\n\r\n________________________________\r\nFrom: Tai Cool Surname <tai@someemail.com>\r\nSent: 01 October 2018 14:05\r\nTo: Tai Cool Surname\r\nSubject: Re: A test email for myself hotmail\r\n\r\n\r\nthat is cool!\r\n\r\n\r\n________________________________\r\nFrom: Tai Cool Surname <tai@someemail.com>\r\nSent: 01 October 2018 14:04\r\nTo: Tai Cool Surname\r\nSubject: A test email for myself hotmail\r\n\r\n\r\nHi,\r\n\r\n\r\nI am testing a parser\r\n\r\n\r\nThanks,\r\n\r\nTai"
+    "plainTextContent":"
+great email chain!
+
+________________________________
+From: Tai Cool Surname <tai@someemail.com>
+Sent: 01 October 2018 14:05:36
+To: Tai Cool Surname
+Subject: Fw: A test email for myself hotmail
+
+
+
+
+________________________________
+From: Tai Cool Surname <tai@someemail.com>
+Sent: 01 October 2018 14:05
+To: Tai Cool Surname
+Subject: Re: A test email for myself hotmail
+
+
+that is cool!
+
+
+________________________________
+From: Tai Cool Surname <tai@someemail.com>
+Sent: 01 October 2018 14:04
+To: Tai Cool Surname
+Subject: A test email for myself hotmail
+
+
+Hi,
+
+
+I am testing a parser
+
+
+Thanks,
+
+Tai"
 }

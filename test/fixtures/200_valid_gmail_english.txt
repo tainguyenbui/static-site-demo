@@ -1,3 +1,31 @@
 ﻿{
-    "plainTextContent":"\r\n---------- Forwarded message ---------\r\nFrom: Tai Cool Surname <tai@someemail.com>\r\nDate: Tue, 2 Oct 2018 at 14:13\r\nSubject: Re: Testing with english gmail client\r\nTo: Tai Cool Surname <tai@theam.io>\r\nCc: Tai Cool Surname <tai@someemail.com>\r\n\r\n\r\n\r\n\r\nalright!\r\n\r\n\r\n\r\nOn Tue, 2 Oct 2018 at 14:13, Tai Cool Surname <tai@theam.io> wrote:\r\n\r\n> hey, put some text!\r\n>\r\n> Cheers,\r\n> Tai\r\n>\r\n> On Tue, 2 Oct 2018 at 14:12, Tai Cool Surname <tai@someemail.com>\r\n> wrote:\r\n>\r\n>>\r\n>>\r\n\r\n"
+    "plainTextContent":"
+---------- Forwarded message ---------
+From: Tai Cool Surname <tai@someemail.com>
+Date: Tue, 2 Oct 2018 at 14:13
+Subject: Re: Testing with english gmail client
+To: Tai Cool Surname <tai@theam.io>
+Cc: Tai Cool Surname <tai@someemail.com>
+
+
+
+
+alright!
+
+
+
+On Tue, 2 Oct 2018 at 14:13, Tai Cool Surname <tai@theam.io> wrote:
+
+> hey, put some text!
+>
+> Cheers,
+> Tai
+>
+> On Tue, 2 Oct 2018 at 14:12, Tai Cool Surname <tai@someemail.com>
+> wrote:
+>
+>>
+>>
+
+"
 }
