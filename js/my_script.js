@@ -12,7 +12,7 @@ $(function() {
     $.post(url, $('#parse-input').val())
     	.done(function(data){
     		$('#output-status').text("Success");
-    		$('#parse-output').text(data);
+    		$('#json-output').text(data);
     	})
     	.fail(function(xhr){
     		var message = "Internal Server Error " + xhr.status;
@@ -73,7 +73,7 @@ $(function() {
 
   function clear() {
   	$('#output-status').text("");
-	$('#parse-input').val("");
+    $('#parse-input').val("");
   }
 
 });
