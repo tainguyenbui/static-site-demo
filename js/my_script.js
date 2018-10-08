@@ -73,6 +73,11 @@ $(function() {
   	populateInput('https://raw.githubusercontent.com/tainguyenbui/static-site-demo/master/test/fixtures/200_valid_combined_clients.txt');
   });
 
+  $("li.combination-gmail-outlook-fake-headers").click(function() {
+    populateInput('https://raw.githubusercontent.com/tainguyenbui/static-site-demo/master/test/fixtures/200_valid_combined_fake_headers.txt');
+  });
+  
+
   function populateInput(url) {
   	clear();
   	$.get(url, function(data) {

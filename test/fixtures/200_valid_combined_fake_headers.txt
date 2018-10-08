@@ -1,0 +1,42 @@
+﻿{
+          "plainTextContent":"
+From: Charles Jhonson Parkins <Charles@somecompany.com>
+Date: Tue, Oct 2, 2018 at 12:58 PM
+Subject: Re: testing email chains using gmail
+To: Michael Brown Smith <Michael@somecompany.com>
+Cc: Alastair McArthur Martin <alastair@somecompany.com>
+test
+From: a fake header
+To:   
+
+>> CC: some fake email <adress@test.com>
+subject
+Date: Tue, Oct 2, 2018 at 12:58 PM
+
+Thanks guys, Let's keep it up.
+
+One last FW please.
+El mar., 2 oct. 2018 a las 12:52, Michael Brown Smith (<Michael@somecompany.com>) escribió:
+> Good job Charles!
+>
+> Regards,
+> Michael
+>
+> El mar., 2 oct. 2018 a las 12:42, Charles Jhonson Parkins (<Charles@somecompany.com>)
+> escribió:
+>> Hi guys!
+>>
+>> This is the very first email, I hope you like it
+>> From: a fake header
+>> To:   
+>> CC: some fake email <adress@test.com>
+>> subject
+>>
+>> Date:
+>> Sent: Tue, Oct 2, 2018 at 12:58 PM
+>> Regards,
+>> Charles
+>>
+>
+"
+}
